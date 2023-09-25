@@ -1,4 +1,4 @@
-ul,ol,li, a{
+ul,ol,li, a, input, textarea{
   all: unset;
 }
 
@@ -7,8 +7,9 @@ img{
 }
 
 :root{
-  --dark-light: rgb(44, 62, 80);
+  --dark: rgb(44, 62, 80);
   --green: rgb(26,188,156);
+  --dark-light: rgb(58, 84, 109);
 }
 
 /*UTILITIES*/
@@ -28,7 +29,7 @@ img{
 
 /*PAGE HEADER*/
 .page-header{
-  background-color: var(--dark-light);
+  background-color: var(--dark);
   color: white;
   padding: 40px 0;
 }
@@ -169,6 +170,22 @@ img{
 }
 
 /*SECTION CONTACT*/
+
+.title-contact{
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact__input{
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+}
+
+form > p{
+  padding: 10px 0;
+  color: grey;
+}
 
 
 
