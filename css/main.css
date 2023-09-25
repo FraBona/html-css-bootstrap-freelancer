@@ -99,6 +99,77 @@ img{
   position: absolute;
 }
 
+/* SECTION PORTFOLIO*/
+.title-portfolio{
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+
+.icon-star__portfolio{
+  font-size: 30px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.icon-star__portfolio:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  border-radius: 999px;
+  background: black;
+  left: 100%;
+  top: 50%;
+  position: absolute;
+}
+
+.icon-star__portfolio:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  border-radius: 999px;
+  background: black;
+  right: 100%;
+  top: 50%;
+  position: absolute;
+}
+
+.card-image{
+  border-radius: 20px;
+}
+
+/*SECTION ABOUT*/
+.about{
+  background-color: var(--green);
+  margin: 30px 0px;
+  color: white;
+}
+.title-about{
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.icon-about{
+  padding: 20px 0px;
+}
+
+.btn{
+  line-height: 40px;
+  padding: 0 18px;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+}
+
+.about-btn{
+  padding: 10px 0 50px;
+}
+
+/*SECTION CONTACT*/
+
 
 
 
@@ -144,6 +215,31 @@ img{
     height: 4px;
     border-radius: 999px;
     background: white;
+    right: 100%;
+    top: 50%;
+    position: absolute;
+  }
+
+  /*SECTION PORTFOLIO*/
+  .icon-star__portfolio:before {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 4px;
+    border-radius: 999px;
+    background: black;
+    left: 100%;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .icon-star__portfolio:after {
+    content: "";
+    display: block;
+    width: 180px;
+    height: 4px;
+    border-radius: 999px;
+    background: black;
     right: 100%;
     top: 50%;
     position: absolute;
