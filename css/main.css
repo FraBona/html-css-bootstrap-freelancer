@@ -188,6 +188,36 @@ form > p{
 }
 
 
+/*FOOTER INFORMATION*/
+
+.footer__information{
+  background-color: var(--dark-light);
+  margin-top: 50px;
+}
+
+.footer-title{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-things{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer-things > span{
+  color: var(--green);
+}
+
+.copyright{
+  background-color: var(--dark);
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
 
 
 
