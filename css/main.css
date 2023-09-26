@@ -12,35 +12,14 @@ img{
   --dark-light: rgb(58, 84, 109);
 }
 
-/*UTILITIES*/
-.flex{
-  display: flex;
-}
-
-.flex-wrap{
-  flex-wrap: wrap;
-}
-
-.item-center{
-  align-items: center;
-}
-
-
-
 /*PAGE HEADER*/
 .page-header{
   background-color: var(--dark);
   color: white;
-  padding: 40px 0;
 }
 
 .logo{
   text-transform: uppercase;
-}
-
-.menu{
-  gap: 22px;
-  justify-content: flex-end;
 }
 
 .menu__item{
@@ -67,7 +46,6 @@ img{
 .icon-star{
   font-size: 30px;
   position: relative;
-  padding: 0 20px;
 }
 
 .author-description{
@@ -103,13 +81,11 @@ img{
 /* SECTION PORTFOLIO*/
 .title-portfolio{
   text-transform: uppercase;
-  padding: 30px 0;
 }
 
 .icon-star__portfolio{
   font-size: 30px;
   position: relative;
-  padding: 0 20px;
 }
 
 .icon-star__portfolio:before {
@@ -143,18 +119,12 @@ img{
 /*SECTION ABOUT*/
 .about{
   background-color: var(--green);
-  margin: 30px 0px;
   color: white;
 }
 .title-about{
   text-transform: uppercase;
   color: white;
   text-align: center;
-  padding-top: 80px;
-}
-
-.icon-about{
-  padding: 20px 0px;
 }
 
 .btn{
@@ -178,18 +148,11 @@ img{
 }
 
 .contact__input{
-  padding: 10px 0;
   border-bottom: 1px solid grey;
 }
 
 form > p{
-  padding: 10px 0;
   color: grey;
-}
-
-.send__btn{
-  display: block;
-  padding: 30px 0px;
 }
 
 .send{
@@ -224,7 +187,6 @@ form > p{
 
 .copyright{
   background-color: var(--dark);
-  padding: 50px;
   color: white;
   text-align: center;
 }
